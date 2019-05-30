@@ -5,11 +5,13 @@ class StringReverse{
 	public static void main(String a[]) throws Exception
 	{
         String st;      //contains user input statement 
-        String reverse = "" //will contain reverse characters of the given string
+        String reverse = ""; //will contain reverse characters of the given string
+    
        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
        System.out.println("Enter the Statement:"); 
          st=br.readLine();
         System.out.println("The reverse is:");
+    
 
         /*  Uncomment this solution code 
         String reverse = "";
@@ -18,6 +20,7 @@ class StringReverse{
         } 
         */ 
         System.out.println(reverse);
+        
  	 
         }  
    
